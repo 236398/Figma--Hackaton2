@@ -1,6 +1,5 @@
 import React from "react";
-import Image from "next/image"; // Import Image component from Next.js
-
+import Image from "next/image";
 const CompanyLogo = () => {
   return (
     <div className="w-full flex flex-wrap justify-center items-center gap-20 pt-14 px-4">

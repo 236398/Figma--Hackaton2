@@ -14,14 +14,14 @@ export default function Footer() {
     <footer className="bg-white border-t border-gray-200 px-4  sm:px-12 md:px-28">
       <div className="mx-auto py-12">
         <div className="flex flex-wrap justify-between gap-8">
-          {/* Brand Section */}
           <div className="flex flex-col w-full  md:w-[320px] items-start">
             <div className="flex items-center gap-2">
               <Image
-                src="/img/logo/logo.png"
-                alt="logo"
+                src="/Vector.png"
+                alt="Comforty Logo"
                 width={40}
-                height={40}
+                height={23.34}
+                className="ml-3"
               />
               <span className="text-[#272343] text-[26px] font-bold">
                 Comforty
@@ -75,7 +75,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Category Section */}
           <div className="w-full md:w-1/4 lg:w-[105px]">
             <h4 className="text-lg font-semibold text-[#9A9CAA]">Category</h4>
             <ul className="mt-4 text-[#272343] space-y-2">
@@ -130,7 +129,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Support Section */}
           <div className="w-full md:w-1/4 lg:w-[156px]">
             <h4 className="text-lg font-semibold text-[#9A9CAA]">Support</h4>
             <ul className="mt-4 text-[#272343] space-y-2">
@@ -169,7 +167,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Newsletter Section */}
           <div className="w-full md:w-1/4 lg:w-[424px]">
             <h4 className="text-lg font-semibold text-[#9A9CAA]">Newsletter</h4>
             <div className="mt-4 flex gap-2">
@@ -189,7 +186,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Footer Bottom */}
         <div className="flex justify-between items-center flex-wrap text-[#9A9CAA] border-t pt-8">
           <p>
             © 2021 - Blogy - Designed & Developed by{" "}
