@@ -1,6 +1,6 @@
 import React from "react";
-import AboutHero from "../components/about";
-import AboutSection from "../components/aboutSection";
+import AboutHero from "../components/About";
+import AboutSection from "../components/AboutSection";
 import AboutPopularProduct from "../components/PopularProduct";
 
 const page = () => {

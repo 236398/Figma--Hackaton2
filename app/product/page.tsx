@@ -1,6 +1,6 @@
 import React from 'react'
 import NewsletterInstagram from '../components/Instagram'
-import AllProduct from '../components/allProducts'
+import AllProduct from '../components/AllProducts'
 
 const page = () => {
   return (
