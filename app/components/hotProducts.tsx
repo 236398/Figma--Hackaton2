@@ -6,7 +6,7 @@ export default function HotProduct() {
       <div className="relative grid grid-cols-1 gap-8 md:grid-cols-[auto_1fr]">
         <div
           style={{ writingMode: "vertical-rl", whiteSpace: "nowrap" }}
-          className="hidden text-xl font-medium tracking-wider text-zinc-900 md:block pt-6"
+          className="hidden text-xl  rotaion-180deg font-medium tracking-wider text-zinc-900 md:block pt-6"
         >
           EXPLORE NEW AND POPULAR STYLES
         </div>
